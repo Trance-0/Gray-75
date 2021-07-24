@@ -333,7 +333,6 @@
       <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Assets/Plugins/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/Trance/Desktop/Gray-75/Gray-75/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
       <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
