@@ -525,6 +525,7 @@
     <None Include="Assets\Plugins\#NVJOB Boids\Example Scenes\NVJOB Assets\Water Shader SAF\Water Shader Type 2.shader" />
     <None Include="Assets\Plugins\Camera Filter Pack\Resources\CameraFilterPack_Vision_Blood.shader" />
     <None Include="Assets\Plugins\HxVolumetricLighting\Resources\Shaders\HxQualitySettings.cginc" />
+    <None Include="Assets\Plugins\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
     <None Include="Assets\Plugins\#NVJOB Boids\Example Scenes\NVJOB Assets\Jelly Sprite\Jelly Sprite.shader" />
     <None Include="Assets\Plugins\Camera Filter Pack\Resources\CameraFilterPack_Light_Rainbow.shader" />
     <None Include="Assets\Plugins\Camera Filter Pack\Resources\CameraFilterPack_TV_CompressionFX.shader" />
@@ -1175,7 +1176,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1c1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="ArchimedsLab">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Assets/Plugins/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Assets/Plugins/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -1529,31 +1530,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Trance/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Documents/Github/Gray-75/Gray-75/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
