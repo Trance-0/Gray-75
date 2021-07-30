@@ -9,6 +9,7 @@ public class HaloControl : MonoBehaviour
     public GameObject haloLight;
     public GameObject frontDoor;
     public GameObject backDoor;
+    public AudioSource BGM;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +23,10 @@ public class HaloControl : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+
         haloLight.GetComponent<Light>().gameObject.SetActive(false);
         halo.SetActive(false);
+        BGM.Play(0);
         frontDoor.GetComponent<DoorLock>().lockdoor();
         backDoor.GetComponent<DoorLock>().lockdoor();
     }
