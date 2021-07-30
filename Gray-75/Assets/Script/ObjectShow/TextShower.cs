@@ -65,7 +65,7 @@ public class TextShower : MonoBehaviour
         {       
             text.text = preText;
         }
-        else if(isTurned)
+        if(isTurned)
         {
             text.text = "";
             isTurned = !isTurned;

@@ -7,11 +7,13 @@ public class ObjectDisplayerController : MonoBehaviour
     public GameObject[] ObjList;
     public Camera mainCam;
     public Camera Cam;
+    public AudioSource AS;
 
     // Start is called before the first frame update
     void Start()
     {
         SetCamera(Cam,mainCam);
+        SetAS(AS);
       //  coun = new TimeCounter();
     }
 
@@ -88,6 +90,11 @@ public class ObjectDisplayerController : MonoBehaviour
     public bool GetDisplayStatus()
     {
         return ObjectDisplayer.GetDisplayStatus();
+    }
+
+    public void SetAS(AudioSource As)
+    {
+        ObjectDisplayer.SetAS(As);
     }
 
 }

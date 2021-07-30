@@ -10,6 +10,7 @@ public class ObjectDisplayer
     public static Camera mainCam;
     public static GameObject obj;
     public static TextShower textSh;
+    public static AudioSource AS;
     public static string[] LongText;
     public static int distance = 2;
     public static int RotatingSpeed = 1;
@@ -63,7 +64,8 @@ public class ObjectDisplayer
         if(!GetDisplayStatus()&&obj.GetComponent<DisplayInfo>().CheckObjDisplay())
         {
             cam.depth = 100;
-            mainCam.GetComponent<ScreenBlurEffect>().isClick = true;
+            //mainCam.GetComponent<BlurOptimized>().enabled = true;
+            AS.Play();
             Debug.Log("Displayed");
         }
         textSh.onClick();
@@ -74,7 +76,7 @@ public class ObjectDisplayer
     public static void CancelDisplay()
     {
             cam.depth = -1;
-            mainCam.GetComponent<ScreenBlurEffect>().isClick = false;
+            //mainCam.GetComponent<BlurOptimized>().enabled = false;
             textSh.cancel();
 
     }
@@ -102,5 +104,10 @@ public class ObjectDisplayer
     public static void SetTextShower(TextShower ts)
     {
         textSh = ts;
+    }
+
+    public static void SetAS(AudioSource As)
+    {
+        AS = As;
     }
 }
