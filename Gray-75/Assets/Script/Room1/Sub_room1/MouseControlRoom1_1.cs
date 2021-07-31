@@ -37,13 +37,13 @@ void Start()
                     GameObject tempObject=Instantiate(hit, hit.transform.position+temp, hit.transform.rotation);
                     tempObject.GetComponent<HighlightEffect>().SetHighlighted(false);
                 }
-                else if (hit.tag=="GravityLoss")
+                else if (hit.CompareTag("GravityLoss"))
                 {
                     hit.GetComponent<GravityLose>().losegravity();
                     FloatingObject.Add(hit);
                     print(FloatingObject.Count);
                 }
-                else if (hit.tag == "TraceObject")
+                else if (hit.CompareTag("TraceObject"))
                 {
                     hit.GetComponent<TraceObject>().traceStart();
                 }

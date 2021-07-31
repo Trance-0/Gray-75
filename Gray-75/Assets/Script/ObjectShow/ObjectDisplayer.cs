@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class ObjectDisplayer
+public class ObjectDisplayer 
 {
     public static Camera cam;
     public static Camera mainCam;
